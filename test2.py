@@ -1,9 +1,3 @@
-print("数値を入力してください")
-number = int(input())
-try:
-    answer = 100 / number
-    print(answer)
-except ZeroDivisionError as e:
-    print("0では割り算できません")
-finally:
-    print("実行終了")
+price = "400" # 変数に値を代入
+MSG =  "円です" # 定数に値を代入
+print(price + MSG) # 変数の値と定数の値を出力
